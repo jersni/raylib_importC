@@ -1,3 +1,5 @@
+# Ignore
+
 # Compiled Object files
 *.o
 *.obj
@@ -22,3 +24,9 @@ docs/
 
 # Code coverage
 *.lst
+
+
+# Allow
+
+!include/raylib.dll
+!include/raylibdll.lib
