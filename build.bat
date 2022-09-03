@@ -1,5 +1,5 @@
-rem @echo off
-rem C:\DMC\dm\bin\
+@echo off
+rem C:\DMC\dm\bin\sppn.exe
 
 if not exist build (mkdir build)
 copy .\include\raylib.dll .\build
@@ -13,3 +13,6 @@ dmd main.obj raylib.obj raylibdll.lib -m64 -g
 
 popd
 
+IF "%~1"=="run" (
+.\build\main.exe
+)

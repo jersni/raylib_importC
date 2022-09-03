@@ -8,3 +8,9 @@ Things that weren't obvious to me:
 * Use sppn from the Digital Mars C compiler to preprocess raylib.c (how do I tell sppn where to look for raylib.h?)
 * Compile, then link with raylibdll.lib and the generated obj files (can I do this in one step?)
 * raylib.dll must be available to the exe file for the thing to run
+
+
+## Build and Run
+
+* build with `.\build.bat`
+* build and run with `.\build.bat run`
